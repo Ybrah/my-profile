@@ -1,0 +1,117 @@
+
+
+body {
+    color:rgb(36 33 33);
+    background-color:#F7F7F9;
+    font-family: Cambria;
+    font-size: 18px;
+}
+
+
+
+}
+h1 {
+    color:rgb(8, 113, 233);
+    font-weight: bold;
+}
+ h2, h3, h4, h5 {
+    color: rgb(103 153 195);
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color:#00CDBE;
+
+}
+
+/* design with class*/
+.container {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+.card-white {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 20px 0px;
+}
+#introduction {
+    text-align: center;
+    width: 609px;
+    margin: 20px auto;
+    padding: 3px 45px;
+}
+.img-circle {
+    border-radius: 50%;
+    margin:2px 124px;
+
+} 
+.btn-blue {
+    background-color: #05A7ED;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin: 20px 157px;
+}
+.btn-blue :hover {
+    color: rgb(110, 135, 245);
+}
+.list-inline {
+    list-style: none;
+    padding: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 0px 20px; 
+}
+
+.list-inline i {
+    font-size:30px;
+    color:lightgrey;
+}
+.list-inline i:hover {
+    color:rgb(110, 135, 245);
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+    #introduction {
+        width:auto;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+    #introduction {
+        width:auto;
+    }
+    .btn-blue {
+        margin:20px 100px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+    #introduction {
+        width:auto;
+    }
+    .btn-blue {
+        margin:20px 2px;
+    }
+    .img-circle {
+        margin: auto;
+    }
+  }
